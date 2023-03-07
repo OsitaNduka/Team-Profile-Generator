@@ -17,7 +17,7 @@ const render = require("./src/page-template.js");
 // function to initialize program
 
 const  generateTeam = [];
-
+// function to gather manager's information 
 const addManager = () => {
     return (
     inquirer.prompt([
@@ -56,7 +56,7 @@ const addManager = () => {
     })
     );
 };
-    
+ // function to gather intern's information   
 const addIntern = () => {
     return (
         inquirer.prompt([
@@ -94,7 +94,7 @@ const addIntern = () => {
     })
     );
 };
-
+// function to gather engineer's information
 const addEngineer = () => {
         return(
             inquirer.prompt([
@@ -136,7 +136,7 @@ const addEngineer = () => {
     })
     );
 };
-
+// function for options to add new member to the team
 const addEmployee = () => {
     return (
         inquirer.prompt([
@@ -161,11 +161,12 @@ const addEmployee = () => {
     })
     );
 };
+  // function to generate team
       function MakeTeam() {
         if (!fs.existsSync(OUTPUT_DIR)){
             fs.mkdirSync(OUTPUT_DIR);
         }
-      
+      // function to generate entire html page
     
      fs.writeFile(outputPath, render(generateTeam), 'utf-8',function(err,file){
             
