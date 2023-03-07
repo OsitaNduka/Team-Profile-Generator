@@ -42,4 +42,6 @@ The "Intern"s class have the following:
 
 3. getRole()—overridden to return 'Intern'
 
+This is the screenshot of the tests results from the four(4) classes, "Employee, Manager, Engineer and Intern" 
+
 ![Screenshot_tests_](./assets/tests.PNG)
