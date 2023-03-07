@@ -38,7 +38,7 @@ const addManager = () => {
         },
         {
             type: 'input',
-            name: 'office number',
+            name: 'officenumber',
             message: 'What is the office number of the team manager?',
         },
         
@@ -49,7 +49,7 @@ const addManager = () => {
             answer.name,
             answer.id,
             answer.email,
-            answer.officeNumber,
+            answer.officenumber,
         );
          generateTeam.push(manager)
          addEmployee();
