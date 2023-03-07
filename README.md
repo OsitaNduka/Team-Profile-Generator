@@ -4,7 +4,7 @@
 
 This Node.js command-line application will take in information about employees on a software engineering team, and then generate an HTML webpage that displays summaries for each person's basic information.  This makes it easy to have quick access to their emails and Github profiles.
 
-The Team-Profile-Generator have classes for each team member which will be exported for tests from the "_test_" directory. The first class the parent class "Employee" have these properties and methods:
+The Team-Profile-Generator have classes for each team member which will be exported for tests from the "_tests_" directory. The first class the parent class "Employee" have these properties and methods:
 
 1. name
 
@@ -41,3 +41,5 @@ The "Intern"s class have the following:
 2. getSchool()
 
 3. getRole()—overridden to return 'Intern'
+
+![Screenshot_tests_](./assets/tests.PNG)
