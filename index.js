@@ -98,10 +98,7 @@ const addIntern = () => {
 const addEngineer = () => {
         return(
             inquirer.prompt([
-        {
-            name: 'github',
-            type: 'input',
-        },
+        
         {
             name: 'name',
             type: 'input',
@@ -166,11 +163,11 @@ const addEmployee = () => {
         if (!fs.existsSync(OUTPUT_DIR)){
             fs.mkdirSync(OUTPUT_DIR);
         }
-      // function to generate entire html page
+      // function to write the generated entire html page
     
      fs.writeFile(outputPath, render(generateTeam), 'utf-8',function(err,file){
             
-                console.log ('Build my Team');
+                console.log ('Build my Team!');
      }
     )};
    function init() {
