@@ -90,3 +90,18 @@ School
 When a user decides to finish buliding their team, they exit the Team profile generator application and the HTML is generated.  This is the Screenshot of the webpage generated.
 
 ![Screenshot](./assets/Team-Profile-Generated.PNG)
+
+## Installation
+
+The user need to install the dependencies to the application by using the command-line: npm i (node package manager initialize: node_modules), and (jest) to run the test by using npm run test.
+
+
+## Credits/Contributing
+
+
+
+## License
+
+Please refer the license in the repo.
+
+![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
