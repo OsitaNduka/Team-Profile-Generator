@@ -91,6 +91,8 @@ When a user decides to finish buliding their team, they exit the Team profile ge
 
 ![Screenshot](./assets/Team-Profile-Generated.PNG)
 
+https://ositanduka.github.io/Team-Profile-Generator/
+
 ## Installation
 
 The user need to install the dependencies to the application by using the command-line: npm i (node package manager initialize: node_modules), and (jest) to run the test by using npm run test.
@@ -103,5 +105,6 @@ The user need to install the dependencies to the application by using the comman
 ## License
 
 Please refer to the license in the repo.
+
 
 ![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
