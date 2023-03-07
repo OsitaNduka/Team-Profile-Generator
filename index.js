@@ -170,7 +170,7 @@ const addEmployee = () => {
     
      fs.writeFile(outputPath, render(generateTeam), 'utf-8',function(err,file){
             
-                console.log ('build my team');
+                console.log ('Build my Team');
      }
     )};
    function init() {
