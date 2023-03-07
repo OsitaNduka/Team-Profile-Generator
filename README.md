@@ -49,7 +49,7 @@ This is the screenshot of the tests results from the four(4) classes, "Employee,
 
 ## Usage
 
-When a user initialize the Team profile generator application, they are prompted to enter the team manager's basic info:
+When a user initialize the Team profile generator application by using command-line: node index.js, they are prompted to enter the team manager's basic info:
 
 Name
 
