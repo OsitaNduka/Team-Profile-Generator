@@ -102,6 +102,6 @@ The user need to install the dependencies to the application by using the comman
 
 ## License
 
-Please refer the license in the repo.
+Please refer to the license in the repo.
 
 ![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
