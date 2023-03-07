@@ -45,3 +45,48 @@ The "Intern"s class have the following:
 This is the screenshot of the tests results from the four(4) classes, "Employee, Manager, Engineer and Intern" 
 
 ![Screenshot_tests_](./assets/tests.PNG)
+
+
+## Usage
+
+When a user initialize the Team profile generator application, they are prompted to enter the team manager's basic info:
+
+Name
+
+Employee ID
+
+Email address
+
+Office number
+
+When a user enters those basic informations, the user is presented with a menu with options to the following:
+
+Add an engineer
+
+Add an intern
+
+Finish building the team
+
+When a user choose the engineer option, the user is prompted to enter the basic information for the engineer and then taken back to the menu.
+
+Engineer's Name
+
+ID
+
+Email
+
+GitHub username
+
+When a user choose the intern option, the user is prompted to enter the basic information for the intern and then taken back to the menu.
+
+Intern’s name
+
+ID
+
+Email
+
+School
+
+When a user decides to finish buliding their team, they exit the Team profile generator application and the HTML is generated.  This is the Screenshot of the webpage generated.
+
+![Screenshot](./assets/Team-Profile-Generated.PNG)
