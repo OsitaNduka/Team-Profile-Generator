@@ -16,7 +16,7 @@ const render = require("./src/page-template.js");
 // Array of questions
 // function to initialize program
 
-const  squad = [];
+const  generateTeam = [];
 
 const addManager = () => {
     return (
@@ -51,7 +51,7 @@ const addManager = () => {
             answer.email,
             answer.officeNumber,
         );
-         squad.push(manager)
+         generateTeam.push(manager)
          addEmployee();
     })
     );
@@ -89,7 +89,7 @@ const addIntern = () => {
             answer.email,
             answer.school,
         );
-        squad.push(intern);
+        generateTeam.push(intern);
     })
     );
 };
@@ -130,7 +130,7 @@ const addEngineer = () => {
         answer.email,
         answer.github
     );
-    squad.push(engineer);
+    generateTeam.push(engineer);
     addEmployee();
     })
     );
@@ -166,7 +166,7 @@ const addEmployee = () => {
         }
       
     
-     fs.writeFile(outputPath, render(squad), 'utf-8',function(err,file){
+     fs.writeFile(outputPath, render(generateTeam), 'utf-8',function(err,file){
             
                 console.log ('build my team');
      }
