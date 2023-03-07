@@ -90,6 +90,7 @@ const addIntern = () => {
             answer.school,
         );
         generateTeam.push(intern);
+        addEmployee()
     })
     );
 };
@@ -147,11 +148,11 @@ const addEmployee = () => {
             },
         ])
     .then((options) => {
-        if (options.employee === "Engineer") {
+        if (options.employee === "Add an engineer") {
             addEngineer();
         }
 
-        else if (options.employee === "Intern") {
+        else if (options.employee === "Add an intern") {
             addIntern();
         }
         else {
